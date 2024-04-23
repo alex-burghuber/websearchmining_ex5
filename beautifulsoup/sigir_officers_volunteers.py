@@ -46,7 +46,7 @@ def main():
         json_dict = {
             "name": team_member.name,
             "position": team_member.position,
-            "email": (team_member.position if team_member.position != "" else None)
+            "email": (team_member.email if team_member.email != "" else None)
         }
         json_dict_array.append(json_dict)
     print(json.dumps(json_dict_array))
