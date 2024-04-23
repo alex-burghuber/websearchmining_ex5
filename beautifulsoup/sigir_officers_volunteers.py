@@ -27,8 +27,8 @@ def sigir_officers_volunteers() -> list[SigirTeamMember]:
     members: list[SigirTeamMember] = []
 
     for member_p in member_p_list:
-        name = member_p.find_next("a").text
-        position = member_p.find_next("strong").text
+        name = member_p.find_next("a").text.strip()
+        position = member_p.find_next("strong").text.strip()
 
         email = next((x for x in map(lambda a: a.text.strip(), member_p.contents) if '@' in x), "")
         members.append(SigirTeamMember(name, position, email))
