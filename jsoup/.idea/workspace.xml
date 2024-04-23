@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d788d1-e6ff-4be2-ae56-f1d48645ec06" name="Changes" comment="Added kotlin jsoup JkuCsProfs scrapper">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JkuStvInfTeam.kt" afterDir="false" />
+    <list default="true" id="94d788d1-e6ff-4be2-ae56-f1d48645ec06" name="Changes" comment="Fixed bug in sigir_officers_volunteers.py">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SigirOfficersVolunteers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -34,9 +36,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2fSw0PTd1sUZIetoJXum6GRPwW3" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -47,6 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713807563858</updated>
       <workItem from="1713807564837" duration="2618000" />
+      <workItem from="1713868932654" duration="681000" />
     </task>
     <task id="LOCAL-00001" summary="Added kotlin jsoup JkuCsProfs scrapper">
       <option name="closed" value="true" />
@@ -72,7 +76,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713809820863</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added kotlin jsoup JkuStvInfTeam scrapper">
+      <option name="closed" value="true" />
+      <created>1713869145507</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713869145507</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed bug in sigir_officers_volunteers.py">
+      <option name="closed" value="true" />
+      <created>1713869378368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713869378368</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +100,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added kotlin jsoup JkuCsProfs scrapper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added kotlin jsoup JkuCsProfs scrapper" />
+    <MESSAGE value="Added kotlin jsoup JkuStvInfTeam scrapper" />
+    <MESSAGE value="Fixed bug in sigir_officers_volunteers.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug in sigir_officers_volunteers.py" />
   </component>
 </project>
